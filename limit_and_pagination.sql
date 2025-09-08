@@ -1,0 +1,15 @@
+SELECT
+    *
+FROM sales
+LIMIT 3;
+
+SELECT
+    *
+FROM sales
+ORDER BY price DESC LIMIT 3;
+
+
+SELECT
+    *
+FROM sales
+LIMIT 3 OFFSET 4;
